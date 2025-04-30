@@ -1,0 +1,20 @@
+<vrml version="2.0">
+	<rootDomain>%ROOT_DOMAIN%</rootDomain> // optional
+
+	// Mandatory
+	<creatorInfo>
+		<name>%CREATOR%</name>
+		<legalNotice type="Text">%LEGAL_NOTICE%</legalNotice>
+		<copyright>© %COPYRIGHT%</copyright>
+	</creatorInfo>
+
+	<section protocol="PORTAL_HOPPER_PROTOCOL" version="1">
+		<assetBundlePath version="%BUNDLE_VERSION%">%ROOT%/%ASSET_BUNDLE_NAME%</assetBundlePath>
+		<scenePath>%SCENE_PATH%</scenePath>
+	</section>
+
+	<section protocol="META_INFO" protocolVersion="1" optional="true">
+		<name>Name of the location</name>
+		<description>Description of the location</description>
+	</section>
+</vrml>
